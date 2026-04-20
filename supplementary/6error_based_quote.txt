@@ -1,0 +1,4 @@
+== ERROR-BASED SQLI TEST ==
+Mon Apr 20 12:45:24 PM -03 2026
+
+curl: (3) URL rejected: Malformed input to a URL function
