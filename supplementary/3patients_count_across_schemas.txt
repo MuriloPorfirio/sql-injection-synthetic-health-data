@@ -1,0 +1,6 @@
+== PATIENT COUNTS ACROSS SCHEMAS ==
+Sun Apr 19 10:47:29 PM -03 2026
+
+db_seguro	349
+db_intermediario	349
+db_simulado_vulneravel	349
