@@ -1,0 +1,20 @@
+== LOCAL MYSQL AUDIT ==
+Sun Apr 19 10:10:34 PM -03 2026
+
+[VERSION]
+8.0.45-0ubuntu0.24.04.1
+
+[bind_address]
+bind_address	127.0.0.1
+
+[port]
+port	3306
+
+[local_infile]
+local_infile	OFF
+
+[secure_file_priv]
+secure_file_priv	/var/lib/mysql-files/
+
+[sql_mode]
+sql_mode	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
