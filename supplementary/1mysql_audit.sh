@@ -1,3 +1,5 @@
+mkdir -p "$HOME/TCC_USP/results_sqli"
+
 OUT="$HOME/TCC_USP/results_sqli/1mysql_audit.txt"
 
 {
