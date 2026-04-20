@@ -1,0 +1,6 @@
+== TABLE COUNTS ACROSS SCHEMAS ==
+Sun Apr 19 11:04:37 PM -03 2026
+
+db_intermediario	19
+db_seguro	19
+db_simulado_vulneravel	19
