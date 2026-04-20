@@ -1,0 +1,23 @@
+== TABLES IN db_seguro ==
+Sun Apr 19 10:34:53 PM -03 2026
+
+Tables_in_db_seguro
+allergies
+careplans
+claims
+claims_transactions
+conditions
+devices
+encounters
+exp_impacto
+imaging_studies
+immunizations
+medications
+observations
+organizations
+patients
+payer_transitions
+payers
+procedures
+providers
+supplies
