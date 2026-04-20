@@ -1,0 +1,14 @@
+== SHOW GRANTS FOR APPLICATION USERS ==
+Mon Apr 20 12:58:09 AM -03 2026
+
+[app_seguro]
+GRANT USAGE ON *.* TO `app_seguro`@`localhost`
+GRANT SELECT, INSERT, UPDATE ON `db_seguro`.* TO `app_seguro`@`localhost`
+
+[app_inter]
+GRANT USAGE ON *.* TO `app_inter`@`localhost`
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE TEMPORARY TABLES ON `db_intermediario`.* TO `app_inter`@`localhost`
+
+[app_vuln]
+GRANT USAGE ON *.* TO `app_vuln`@`localhost`
+GRANT ALL PRIVILEGES ON `db_simulado_vulneravel`.* TO `app_vuln`@`localhost`
