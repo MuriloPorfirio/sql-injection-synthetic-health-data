@@ -21,5 +21,4 @@ done
 cat /tmp/create_*.sql > /tmp/create_all_staging.sql
 sudo mysql -u root db_seguro < /tmp/create_all_staging.sql
 
-# mostrar as tabelas criadas
 sudo mysql -u root -e "SHOW TABLES IN db_seguro;"
